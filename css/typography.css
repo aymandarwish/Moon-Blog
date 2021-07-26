@@ -35,7 +35,7 @@ hr{
 
 figure{
     margin: 0;
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-weight: normal;
 }
 
@@ -74,6 +74,12 @@ figure{
     padding-right: 0;
     padding-top: 0;
     padding-bottom: 0;
+}
+
+@media(min-width: 768px){
+    figure{
+        font-size: 1rem;
+    }
 }
 /* Typography End */
 /************************/

@@ -2,9 +2,8 @@
 /* Header */
 .navbar{
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   z-index: 999;
   background-color: rgba(255, 255, 255, 0.9);
   font-weight: bold;
@@ -36,7 +35,6 @@
 }
 
 .search-bar{
-  display: none;
   margin: 1em;
 }
 
@@ -45,6 +43,11 @@
 }
 
 @media(min-width: 768px){
+  .navbar{
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: space-between;
+  }
   .navbar-list{
       font-size: 1.2rem;
   }
