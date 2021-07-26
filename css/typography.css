@@ -20,7 +20,9 @@ input{
 p{
     margin-top: 0;
 }
-
+blockquote{
+    font-size: 2rem;
+}
 button{
     padding: 10px 20px;
     border: none;
@@ -29,6 +31,12 @@ button{
 
 hr{
     width: 100%;
+}
+
+figure{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: normal;
 }
 
 #primary-color {
@@ -59,6 +67,13 @@ hr{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+.padding-none{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 /* Typography End */
 /************************/
